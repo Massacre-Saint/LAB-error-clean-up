@@ -1,7 +1,7 @@
 // In order for bootstrap to work, you need to import it like below
 // uncomment the import statements and refresh the DOM to see!
-// @import "~@fortawesome/fontawesome-free/css/all.min.css";
-// @import "~bootstrap/scss/bootstrap";
+@import "~@fortawesome/fontawesome-free/css/all.min.css";
+@import "~bootstrap/scss/bootstrap";
 
 body {
   background-color: rgb(31, 31, 31);
@@ -56,7 +56,7 @@ body {
   z-index: 1;
 }
 
-.card-img-overlay > * {
+.card-img-overlay>* {
   z-index: 100;
 }
 
@@ -69,6 +69,7 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
+
   .card,
   #voldy,
   #students {
@@ -78,4 +79,4 @@ body {
   .container {
     flex-direction: column;
   }
-} 
+}
